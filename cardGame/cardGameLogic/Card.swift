@@ -6,3 +6,12 @@
 //
 
 import Foundation
+class Card{
+    var value:Int;
+    var shape:String;
+    
+    init(value:Int, shape:String){
+        self.value = value;
+        self.shape = shape;
+    }
+}
